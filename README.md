@@ -15,7 +15,7 @@ when you open it you see this Popup, first sign with your google account then in
 <br>After it loads the videos you should get something like this
 ![Main Ui](https://i.ibb.co/9qkWHWb/Capture.png)
 <br>The Uper Bar is the search Bar<br>
-The + button is obviously to add videos a popup will apear when you click on it(you can close the popup by using esc key on keyboard)<br>
+The + button is obviously to add videos, a popup will apear when you click on it(you can close the popup by using esc key on keyboard)<br>
 When you hover over a video there is a trash can that appears, thats the delet button<br>
 you can double click on the number at the begining to write the position you want to swap with(this works even if you search)
 ![Swap](https://i.ibb.co/r3Ng4XG/Capture.png)
