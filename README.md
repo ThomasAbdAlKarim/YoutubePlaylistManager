@@ -1,6 +1,10 @@
 # Youtube Playlist Manager
 This WebApp let you Manage your youtube playlist easily<br>
+<<<<<<< HEAD
 Creat a .env
+=======
+Creat a .env file
+>>>>>>> 9810377dd0aa95c477156ad8c6a44b3201c41090
 <pre><code>REACT_APP_API_KEY=Your Api Key
 REACT_APP_CLIENT_ID=Your Client Id</code></pre>
 ## Features
@@ -19,4 +23,8 @@ The + button is obviously to add videos a popup will apear when you click on it(
 When you hover over a video there is a trash can that appears, thats the delet button<br>
 you can double click on the number at the begining to write the position you want to swap with(this works even if you search)
 ![Swap](https://i.ibb.co/r3Ng4XG/Capture.png)
+<<<<<<< HEAD
 you can drag and drop a video to a new position
+=======
+you can drag and drop a video to a new position
+>>>>>>> 9810377dd0aa95c477156ad8c6a44b3201c41090
