@@ -1,6 +1,6 @@
 # Youtube Playlist Manager
 This WebApp let you Manage your youtube playlist easily<br>
-Creat a .env
+Creat a .env file
 <pre><code>REACT_APP_API_KEY=Your Api Key
 REACT_APP_CLIENT_ID=Your Client Id</code></pre>
 ## Features
