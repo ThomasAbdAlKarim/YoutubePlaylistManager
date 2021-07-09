@@ -10,7 +10,7 @@ REACT_APP_CLIENT_ID=Your Client Id</code></pre>
 - swap two videos positions
 - put a video in a position
 ## How to use
-when you open it you see this Popup, first sign with your google account then in the textbox put the id of the playlist you want to manage with the app and then click the load button
+when you open it you see this Popup, first sign with your google account then in the textbox put the id of the playlist you want to manage
 ![popup](https://i.ibb.co/9G68YTT/Capture.png)
 After it loads the videos you should get something like this
 ![Main Ui](https://i.ibb.co/9qkWHWb/Capture.png)
