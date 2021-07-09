@@ -1,0 +1,71 @@
+.Popup
+{
+    position: fixed;
+    left: 23%;
+    top: 3%;
+    background-color: #3D3D3D;
+    width: 200px;
+    height: 70px;
+    border-radius: 5px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+
+.AddBut
+{
+    font-family: 'Helvetica';
+    width: 42px;
+    height: 42px;
+    font-weight:530;
+    background-color: #b071fc;
+    display: flex;
+    border-radius: 50%;
+    color: rgb(0, 0, 0);
+    font-size: 28px;
+    border: none;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+    transition: all .3s ease;
+    margin-right: 10px;
+}
+
+
+.AddBut:hover
+{
+    background-color: #a65eff;
+}
+
+.AddBut:focus
+{
+    outline: none;
+}
+.AddBut:active
+{
+    background-color: #7143aa;
+}
+
+.INPID
+{
+    margin-top: -10%;
+}
+.ADD
+{
+    margin-top: 2%;
+    font-family: helvetica;
+  text-decoration: none;
+  border-radius: 20px;
+  width: 75px;
+  text-align: center;
+  height: 27px;
+  font-size: 1rem;
+  font-weight: 550;
+  background-color: #b071fc;
+  border: none; 
+  margin-top: 5px;
+  margin-left: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  transition: all .3s ease;
+}

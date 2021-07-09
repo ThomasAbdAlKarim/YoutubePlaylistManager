@@ -1,0 +1,175 @@
+.ListItem
+{
+    border-bottom: 1px solid black;
+    display: flex;
+    height: 100px;
+    margin-bottom: .5%;
+    padding: 0;
+    border-radius: 15px;
+    background-color: rgb(61, 61, 61);
+    margin-left: 1%;
+    margin-right: 1%;  
+    overflow: hidden;
+    cursor: grab;
+}
+
+
+.NumOff
+{
+    border: none;
+    display: inline;
+    font-size: 1rem;
+    padding: none;
+    color: white;
+    background-color: rgba(0, 0, 0, 0);
+    width: 100%;
+    text-align: center;
+    display: none;
+}
+
+.NumTxt
+{
+    font-size: 1.1rem;
+    margin-top: -10%;
+    
+}
+.NumTxtOff
+{
+    display: none;
+}
+.NumOn
+
+{
+    display: block;
+}
+
+
+
+
+.NumTxt:hover
+{
+    background-color: rgba(255, 255, 255, 0.274);
+    cursor: default;
+}
+
+.NumOff:focus
+{
+    outline: none;
+    
+}
+.ListItem:active
+{
+    cursor: grabbing;
+}
+
+
+
+
+.Thumb
+{
+    height: 85%;
+    margin-top: .5%;
+}
+
+.Names
+{
+color: white;
+text-decoration: none;
+text-align: left;
+margin-left: .5%;
+margin-top: 1.5%;
+}
+
+.Title
+{
+font-size: .9em;
+}
+
+.Title:hover
+{
+    text-decoration: underline;
+}
+
+
+.Channel
+{
+    margin-top: -2%;
+    font-size: .9em;
+    color: rgb(182, 182, 182);
+}
+
+.Num
+{
+    color: white;
+    width: 30px;
+    padding-top: 2.7%;
+    margin-left: -41px;
+    border-radius: 10px 0 0 10px;
+}
+
+.Delete
+{
+    background-color: rgba(0, 0, 0, 0);
+    height: 100%;
+    border: none;
+    position: relative;
+    
+    left: 97.2%;
+    visibility:hidden;
+    
+    
+}
+
+.Delete:hover 
+{
+    background-color: rgba(255, 255, 255, 0.336);
+}
+.Delete:active
+{
+    
+    box-shadow: 0 3px 4px -1px;
+}
+.Trash
+{
+    filter: invert(1); 
+    margin-left: -1%;
+    margin-top: 30%;
+      
+}
+@media (max-width: 480px)
+{
+    .Delete
+    {
+        background-color: rgba(255, 2, 2, 0);
+        left: 89%;
+        visibility: visible;
+    }
+    .Trash
+    {
+        margin-top: 90%;
+    }
+    .Delete:hover
+    {
+        background-color: rgba(255, 2, 2, 0);
+
+    }
+    .Delete:active
+    {
+    transform: translateY(.5px);
+    box-shadow: 0 0px 0px 0px;
+    background-color: rgba(95, 95, 95, 0.274);
+    }
+}
+
+
+
+
+.Delete:hover > .Trash
+{
+    filter: invert(.8);
+}
+
+.ListItem:hover > .Delete
+{
+    visibility: visible;
+}

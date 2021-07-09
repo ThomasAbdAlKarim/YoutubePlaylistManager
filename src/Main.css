@@ -1,0 +1,142 @@
+.AccountUi > *
+{
+    margin-top: 10%;
+    margin-left: 26%;
+}
+
+.LogButt
+{
+  font-family: helvetica;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 4px 30px;
+  width: 220px;
+  height: 45px;
+  font-size: 1rem;
+  font-weight: 550;
+  background-color: #b071fc;
+  border: none; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  transition: all .3s ease;
+  
+}
+
+.Out
+{
+    margin-top: 5%;
+}
+
+.Out:active
+{
+    transform: scale(.98);
+    background-color: #8356bb;
+}
+
+input
+{
+    height: 30px;
+    margin-top: 7.5px;
+    
+    border: none;
+    border-bottom: solid #b071fc;
+    caret-color: #b071fc;
+    background-color: #2E2E2E;
+    color: white;
+    font-family: 'Helvetica';
+    font-size: 1rem;
+}
+
+
+.IdBar
+{
+    width: 400px;
+    margin-left: 10%;
+    text-align: center;
+    margin-top: 25%;
+}
+
+.Clear
+{
+  font-family: helvetica;
+  text-decoration: none;
+  border-radius: 20px;
+  width: 150px;
+  text-align: center;
+  height: 40px;
+  font-size: 1rem;
+  font-weight: 550;
+  background-color: #b071fc;
+  border: none; 
+  margin-top: 5px;
+  margin-left: 10px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  transition: all .3s ease;
+}
+
+
+.LoadPlay
+{
+  font-family: helvetica;
+  text-decoration: none;
+  border-radius: 20px;
+  padding: 4px 30px;
+  width: 220px;
+  height: 45px;
+  font-size: 1rem;
+  font-weight: 550;
+  background-color: #b071fc;
+  border: none; 
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.25);
+  transition: all .3s ease;
+  margin-top: 12%;
+  
+
+}
+.LogButt:hover
+{
+    background-color: #a65eff;
+}
+
+.AccountUi
+{
+    
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 600px;
+    position: absolute;
+    top: 16%;
+    left: 31.3%;
+    background-color: rgb(61, 61, 61);
+    border-radius: 10px;
+    
+}
+
+
+
+.MainUi
+{
+    margin-top: 2%;
+    margin-bottom: .5%;
+    display: flex;
+    justify-content: center;
+}
+
+.Hide
+{
+    display: none;
+}
+
+
+.SearchBar
+{
+    width: 30%;
+}
+input:focus
+{
+    outline: none;
+}
+.Space
+{
+    margin-bottom: 2%;
+}
